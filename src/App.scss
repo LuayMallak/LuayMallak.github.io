@@ -28,8 +28,8 @@
       margin-bottom: 500px;
 
       .video {
-        width: 375;
-        height: 100vh;
+        max-width: 1920;
+        min-height: 100vh;
       }
 
       .content {
