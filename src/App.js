@@ -5,20 +5,34 @@ import AboutMe from "./Components/AboutMe";
 import ContactMe from "./Components/ContactMe";
 import Header from "./Components/Header";
 
-import "./App.scss";
+import "./styles/App.scss";
 
-function App() {
-  return (
-    <div className="App">
-      <Home />
-      <main className="main">
-        <Header />
-        <Portfolio />
-        <AboutMe />
-        <ContactMe />
-      </main>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      display: false,
+    };
+    this.handleBurgerMenu = this.handleBurgerMenu.bind(this);
+  }
+
+  handleBurgerMenu() {
+    this.setState({ display: !this.display });
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <Home />
+        <main className="main">
+          <Header />
+          <Portfolio />
+          <AboutMe />
+          <ContactMe />
+        </main>
+      </div>
+    );
+  }
 }
 
 export default App;

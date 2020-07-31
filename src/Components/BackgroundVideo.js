@@ -1,5 +1,6 @@
 import React from "react";
 import background from "../images/background.mp4";
+import image from "../images/example.png";
 
 export default function BackgroundVideo() {
   const videoSource = background;
@@ -14,13 +15,8 @@ export default function BackgroundVideo() {
         <div className="subContent">
           <h1>Hi, I am Luay Mallak</h1>
           <p>Full-stack junior Web Developer, live in Leipzig, Germany</p>
-          <a href="#header" className="btn btn-outline-dark">
-            Check my Portfolio
-          </a>
-          <img
-            src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-            alt="profile"
-          />
+          <a href="#header">Check my Portfolio</a>
+          <img src={image} alt="profile" />
         </div>
       </div>
     </div>
