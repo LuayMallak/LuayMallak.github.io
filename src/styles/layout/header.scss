@@ -72,24 +72,9 @@
     display: none;
   }
   .nav {
-    width: 40%;
     display: none;
-
-    .navList {
-      width: 70%;
-      display: flex;
-      list-style: none;
-      justify-content: space-around;
-    }
   }
   .socialLinks {
     display: none;
-    width: 40%;
-    .socialList {
-      width: 70%;
-      display: flex;
-      list-style: none;
-      justify-content: space-around;
-    }
   }
 }

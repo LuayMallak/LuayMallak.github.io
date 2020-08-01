@@ -1,0 +1,42 @@
+@media (min-width: 1025px) {
+  .container {
+    .video {
+      height: 150vh;
+    }
+
+    .content {
+      .subContent {
+        height: 80vh;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-between;
+
+        a:link,
+        :visited,
+        :hover,
+        :active {
+          text-decoration: none;
+          color: white;
+        }
+
+        img {
+          width: 400px;
+          height: 400px;
+        }
+      }
+    }
+  }
+
+  .header {
+    justify-content: flex-end;
+    .burgerMenu {
+      display: none;
+    }
+    .nav {
+      justify-content: flex-end;
+    }
+    .socialLinks {
+    }
+  }
+}

@@ -11,14 +11,6 @@
   margin: 0;
 }
 
-#root {
-  padding: 0;
-  margin: 0;
-  max-width: 100vw;
-  box-sizing: border-box;
-}
-
-@import "./abstract/mediaQuiries.scss";
 @import "./layout/backgroundVideo";
 @import "./layout/home";
 @import "./layout/header";
@@ -26,39 +18,11 @@
 @import "./layout/portfolio";
 @import "./layout/aboutMe";
 @import "./layout/contactMe";
+@import "./abstract/mediaQuery481.scss";
+@import "./abstract/mediaQeury768.scss";
+@import "./abstract/mediaQuery1025.scss";
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-/* .navbar {
-  width: 100%;
-  height: 4rem;
-  padding: 0 20px;
-  display: flex;
-  justify-content: space-between;
-  background-color: grey;
-
-  .logo {
-    padding: 15px 0;
-    color: white;
-  }
-  .navList {
-    list-style: none;
-    display: flex;
-    flex-flow: row nowrap;
-
-    .listItem {
-      padding: 18px 10px;
-
-      .navLink :hover,
-      :active,
-      :link,
-      :visited {
-        color: white;
-        text-decoration: none;
-      }
-    }
-  }
-} */

@@ -1,0 +1,73 @@
+@media (min-width: 768px) {
+  .container {
+    .content {
+      top: 5rem;
+
+      .subContent {
+        h1 {
+          font-size: 5rem;
+        }
+
+        p {
+          font-size: 2.5rem;
+        }
+
+        a {
+          padding: 12px 25px;
+          font-size: 2rem;
+          border-radius: 5px;
+        }
+
+        img {
+          width: 200px;
+          height: 200px;
+          margin-bottom: 70px;
+        }
+      }
+    }
+  }
+
+  .header {
+    height: 7rem;
+    justify-content: space-between;
+    .burgerMenu {
+      width: 5%;
+      height: 5rem;
+      z-index: 200;
+      padding: 1rem 0;
+
+      .bar {
+        height: 6px;
+      }
+
+      .barOne {
+        top: 3rem;
+        width: 4%;
+      }
+      .barThree {
+        top: 3rem;
+        width: 4%;
+      }
+    }
+    .burger-navList {
+      top: 7rem;
+      padding-bottom: 5rem;
+    }
+
+    .nav {
+      width: 70%;
+      display: flex;
+      justify-content: flex-start;
+
+      .navList {
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+
+        .navLink a {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
