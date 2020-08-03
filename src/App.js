@@ -10,14 +10,7 @@ import "./styles/App.scss";
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      display: false,
-    };
-    this.handleBurgerMenu = this.handleBurgerMenu.bind(this);
-  }
-
-  handleBurgerMenu() {
-    this.setState({ display: !this.display });
+    this.state = {};
   }
 
   render() {
