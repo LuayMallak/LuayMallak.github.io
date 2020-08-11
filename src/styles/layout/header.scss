@@ -7,6 +7,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  z-index: 1000;
 
   :hover,
   :active,
@@ -23,7 +24,6 @@
     width: 7%;
     height: 2.5rem;
     background-color: black;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
 

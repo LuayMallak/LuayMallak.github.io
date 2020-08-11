@@ -3,7 +3,7 @@ import Slide from "react-reveal/Slide";
 export default function Portfolio() {
   return (
     <>
-      {/* <div className="portfolio" id="portfolio">
+      <div className="portfolio" id="portfolio">
         <div className="cards-container">
           <Slide bottom>
             <a
@@ -162,8 +162,8 @@ export default function Portfolio() {
             </Slide>
           </a>
         </div>
-      </div> */}
-      <div className="portfolio" id="portfolio">
+      </div>
+      {/* <div className="portfolio" id="portfolio">
         <div className="cards-container">
           <a
             className="link "
@@ -287,7 +287,7 @@ export default function Portfolio() {
             </div>
           </a>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

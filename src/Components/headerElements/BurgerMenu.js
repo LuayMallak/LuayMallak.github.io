@@ -1,53 +1,37 @@
 import React, { Component } from "react";
 
-let display = "burger-navList-hidden";
-let bar = "bar";
-let barOne = "bar";
-let barThree = "bar";
 export default class BurgerMenu extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isShown: true,
+      isShown: false,
     };
     this.openBurgermenu = this.openBurgermenu.bind(this);
   }
 
   openBurgermenu() {
-    if (this.state.isShown === false) {
-      this.setState({ isShown: true });
-      display = "burger-navList-hidden";
-      bar = "bar";
-      barOne = "bar";
-      barThree = "bar";
-    } else {
-      this.setState({ isShown: false });
-      display = "burger-navList";
-      bar = "hiddenBar";
-      barOne = "barOne";
-      barThree = "barThree";
-    }
+    if (this.state.isShown === true)
+      this.setState({ isShown: !this.state.isShown });
+    else this.setState({ isShown: !this.state.isShown });
   }
 
   render() {
     return (
       <>
         <div className="burgerMenu" onClick={this.openBurgermenu}>
-          <div className={barOne}></div>
-          <div className={bar}></div>
-          <div className={barThree}></div>
+          <div className={!this.state.isShown ? "bar" : "barOne"}></div>
+          <div className={!this.state.isShown ? "bar" : "hiddenBar"}></div>
+          <div className={!this.state.isShown ? "bar" : "barThree"}></div>
         </div>
-        <div className={display}>
+        <div
+          className={
+            !this.state.isShown ? "burger-navList-hidden" : "burger-navList"
+          }
+        >
           <div className="navLink">
             <a href="/" onClick={this.openBurgermenu}>
               {" "}
               Home{" "}
-            </a>
-          </div>
-          <div className="navLink">
-            <a href="#portfolio" onClick={this.openBurgermenu}>
-              {" "}
-              Portfolio{" "}
             </a>
           </div>
           <div className="navLink">
@@ -56,6 +40,13 @@ export default class BurgerMenu extends Component {
               AboutMe{" "}
             </a>
           </div>
+          <div className="navLink">
+            <a href="#portfolio" onClick={this.openBurgermenu}>
+              {" "}
+              Portfolio{" "}
+            </a>
+          </div>
+
           <div className="navLink">
             <a href="#contact-me" onClick={this.openBurgermenu}>
               {" "}

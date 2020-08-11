@@ -19,8 +19,8 @@ class App extends React.Component {
         <Home />
         <main className="main">
           <Header />
-          <Portfolio />
           <AboutMe />
+          <Portfolio />
           <ContactMe />
         </main>
       </div>
