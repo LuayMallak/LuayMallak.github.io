@@ -37,6 +37,7 @@
 
   .header {
     width: 100%;
+    height: 5rem;
 
     .burgerMenu {
       width: 5%;
@@ -52,6 +53,7 @@
       }
     }
     .burger-navList {
+      top: 5rem;
       padding-bottom: 5rem;
     }
 
@@ -72,8 +74,31 @@
     }
   }
   .main {
+    .aboutMe {
+      height: auto;
+      flex-flow: row nowrap;
+      padding-top: 10rem;
+      justify-content: space-around;
+
+      .skillsBarsContainer {
+        width: 40%;
+        height: 100vh;
+        display: flex;
+        margin-bottom: 2rem;
+
+        h1 {
+          width: 40%;
+          padding: 0.3rem;
+        }
+      }
+
+      .infoContainer {
+        width: 60%;
+        height: 100vh;
+      }
+    }
     .portfolio {
-      background-color: aqua;
+      background-color: white;
 
       .cards-container {
         display: flex;
@@ -111,9 +136,10 @@
 
               h5 {
                 font-size: 150%;
+                text-align: center;
               }
               p {
-                font-size: 125%;
+                font-size: 100%;
                 text-align: center;
               }
             }

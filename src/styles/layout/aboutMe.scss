@@ -1,35 +1,36 @@
 .aboutMe {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-color: white;
-  padding-top: 7rem;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-flow: column nowrap;
   padding: 2rem;
+  padding-top: 7rem;
 
   .skillsBarsContainer {
     width: 100%;
-    height: 40%;
+    height: 40vh;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
     h1 {
       font-size: 1.5rem;
+      background-color: whitesmoke;
+      clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+      width: 30%;
     }
-
     .skillBar {
       background-color: whitesmoke;
       padding: 0.5rem;
-      /* clip-path: polygon(98% 0%, 100% 50%, 98% 100%, 0% 100%, 0% 0%); */
-      clip-path: polygon(95% 0%, 100% 50%, 95% 100%, 0% 100%, 0.7% 50%, 0% 0%);
+
+      clip-path: polygon(97% 0%, 100% 50%, 97% 100%, 0% 100%, 0.7% 50%, 0% 0%);
       padding: 0.5rem 2rem 0.5rem 1rem;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      /* border: 0.1rem solid black; */
       position: relative;
 
       .background {
@@ -72,29 +73,24 @@
   }
 
   .infoContainer {
-    height: 50%;
+    height: 80vh;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: space-around;
 
-    h1 {
-      background-color: whitesmoke;
-      height: 10%;
-      display: flex;
-      align-items: flex-end;
-      padding: 0.5rem 1.5rem;
-      /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
-    }
-
-    .generalInfo {
-      background-color: whitesmoke;
-    }
-    .experience {
-      background-color: whitesmoke;
-    }
-    .otherSkills {
-      background-color: whitesmoke;
+    .infoDiv {
+      h3 {
+        clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+        padding: 0.5rem;
+        width: 30%;
+        background-color: rgb(236, 230, 230);
+      }
+      p {
+        background-color: whitesmoke;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+      }
     }
   }
 }

@@ -85,7 +85,7 @@ export default function Portfolio() {
                   />
                 </div>
                 <div className="card-body">
-                  <h5 className="title">Vanilla Javascript Cocktail App</h5>
+                  <h5 className="title">Javascript Cocktail App</h5>
                   <p className="description">
                     An app created with vanilla Javascript from a free API in
                     cooperation with classmates in DCI as a module project

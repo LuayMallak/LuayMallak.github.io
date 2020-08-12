@@ -17,8 +17,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <Home />
+        <Header />
         <main className="main">
-          <Header />
           <AboutMe />
           <Portfolio />
           <ContactMe />
