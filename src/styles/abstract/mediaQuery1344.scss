@@ -1,0 +1,70 @@
+@media (min-width: 1344px) {
+  .header {
+    height: 7rem;
+    .nav {
+      width: 40%;
+      margin-right: 20%;
+
+      .navList {
+        .navLink {
+          a {
+            font-size: 1.8rem;
+          }
+        }
+      }
+    }
+  }
+
+  .main {
+    box-shadow: 0 0 2rem rgba(114, 5, 5, 0.33);
+    width: 80%;
+    .aboutMe {
+      width: 100%;
+      flex-flow: row nowrap;
+      background-color: whitesmoke;
+      padding-top: 7rem;
+
+      .skillsBarsContainer {
+        width: 40%;
+        max-height: 40vh;
+        align-self: flex-start;
+        margin-left: 10%;
+      }
+
+      .infoContainer {
+        display: flex;
+        width: 50%;
+        align-self: flex-end;
+        height: 100vh;
+        .bottom {
+          display: none;
+        }
+        .leftRight {
+          display: inline;
+        }
+        .infoDiv {
+          h3 {
+            font-size: 200%;
+            padding: 0.5rem;
+          }
+          p {
+            font-size: 150%;
+            padding: 0.3rem;
+            width: 80%;
+          }
+        }
+      }
+    }
+    .portfolio {
+      width: 100%;
+      padding: 5rem;
+      padding-top: 9rem;
+      background-color: whitesmoke;
+    }
+    .contactMe {
+      width: 100%;
+      background-color: whitesmoke;
+      padding-top: 11rem;
+    }
+  }
+}

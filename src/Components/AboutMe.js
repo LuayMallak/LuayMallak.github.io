@@ -55,7 +55,7 @@ export default function AboutMe() {
           </div>
 
           <div className="skillBar mongoDb">
-            <p>MongoDB & Mongoose</p>
+            <p>Mongoose</p>
             <p>70%</p>
             <Slide left>
               <div className="background "></div>
@@ -72,7 +72,7 @@ export default function AboutMe() {
         </div>
         <div className="infoContainer">
           <Slide bottom>
-            <div className="generalInfo infoDiv">
+            <div className="generalInfo infoDiv bottom">
               <h3>Who am I?</h3>
               <p>
                 My name is Luay Mallak, I am a frontend web-developer, I come
@@ -84,7 +84,7 @@ export default function AboutMe() {
             </div>
           </Slide>
           <Slide bottom>
-            <div className="otherSkills infoDiv">
+            <div className="otherSkills infoDiv bottom">
               <h3>Why Web Development?</h3>
               <p>
                 I studied English-Arabic Translation in Damascus University and
@@ -97,7 +97,44 @@ export default function AboutMe() {
             </div>
           </Slide>
           <Slide bottom>
-            <div className="experience infoDiv">
+            <div className="experience infoDiv bottom">
+              <h3>What do I do?</h3>
+              <p>
+                I am at the final two months of a one year web-development
+                course at Digital Career Institute. I am the representative of
+                my class. Along with my classmates, we have designed a couple of
+                projects, using HTML/CSS, javaScript, react and Express! Have a
+                look here!
+              </p>
+            </div>
+          </Slide>
+          <Slide right>
+            <div className="generalInfo infoDiv leftRight">
+              <h3>Who am I?</h3>
+              <p>
+                My name is Luay Mallak, I am a frontend web-developer, I come
+                from Syria, but have been living in Leipzig since 2015. I love
+                history and everything about space, I also am so fond of
+                science-fiction movies! if I am not coding, I am playing video
+                games.
+              </p>
+            </div>
+          </Slide>
+          <Slide left>
+            <div className="otherSkills infoDiv leftRight">
+              <h3>Why Web Development?</h3>
+              <p>
+                I studied English-Arabic Translation in Damascus University and
+                worked as a translator and interpreter for 8 years, before I
+                decided to be a web-developer. Why? I have been always fond of
+                programming and computers, so I seized the best chance to learn
+                programing languages, to add it to my set of languages I speak,
+                Arabic, English and German.
+              </p>
+            </div>
+          </Slide>
+          <Slide right>
+            <div className="experience infoDiv leftRight">
               <h3>What do I do?</h3>
               <p>
                 I am at the final two months of a one year web-development

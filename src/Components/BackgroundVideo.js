@@ -14,7 +14,7 @@ export default function BackgroundVideo() {
       <div className="content">
         <div className="subContent">
           <h1>Hi, I am Luay Mallak</h1>
-          <p>Full-stack junior Web Developer, live in Leipzig, Germany</p>
+          <p>Front-end junior Web Developer, live in Leipzig, Germany</p>
           <a href="#about-me">Check my Portfolio</a>
           <img src={image} alt="profile" />
         </div>

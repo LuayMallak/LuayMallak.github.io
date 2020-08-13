@@ -9,13 +9,13 @@ export default function Nav() {
             <a href="/"> Home </a>
           </div>
           <div className="navLink">
-            <a href="#about-me"> AboutMe </a>
+            <a href="#about-me"> About Me </a>
           </div>
           <div className="navLink">
             <a href="#portfolio"> Portfolio </a>
           </div>
           <div className="navLink">
-            <a href="#contact-me"> ContactMe </a>
+            <a href="#contact-me"> Contact Me </a>
           </div>
         </div>
       </nav>

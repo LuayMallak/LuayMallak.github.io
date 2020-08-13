@@ -1,4 +1,4 @@
-@media (min-width: 1025px) {
+@media (min-width: 992px) {
   .container {
     .video {
       height: 150vh;
@@ -11,7 +11,6 @@
         align-items: center;
         justify-content: space-between;
         overflow: hidden;
-
         a:link,
         :visited,
         :hover,
@@ -21,8 +20,8 @@
         }
 
         img {
-          width: 400px;
-          height: 400px;
+          width: 200px;
+          height: 200px;
         }
       }
     }
@@ -30,7 +29,7 @@
 
   .header {
     justify-content: flex-end;
-    height: 7rem;
+    height: 5rem;
     .burgerMenu {
       display: none;
     }
@@ -38,6 +37,28 @@
       justify-content: flex-end;
     }
     .socialLinks {
+    }
+  }
+
+  .main {
+    .aboutMe {
+      flex-flow: column nowrap;
+      padding-top: 5rem;
+
+      .skillsBarsContainer {
+        width: 50%;
+        height: 30vh;
+      }
+
+      .infoContainer {
+        height: 60vh;
+
+        .infoDiv {
+          p {
+            font-size: 1.5rem;
+          }
+        }
+      }
     }
   }
 }
