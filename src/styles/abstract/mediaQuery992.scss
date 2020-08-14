@@ -1,63 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap");
 @media (min-width: 992px) {
-  .container {
-    .video {
-      height: 150vh;
-    }
-
-    .content {
-      .subContent {
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-        justify-content: space-between;
-        overflow: hidden;
-        a:link,
-        :visited,
-        :hover,
-        :active {
-          text-decoration: none;
-          color: white;
-        }
-
-        img {
-          width: 200px;
-          height: 200px;
-        }
-      }
-    }
-  }
-
-  .header {
-    justify-content: flex-end;
-    height: 5rem;
-    .burgerMenu {
-      display: none;
-    }
-    .nav {
-      justify-content: flex-end;
-    }
-    .socialLinks {
-    }
-  }
-
-  .main {
-    .aboutMe {
-      flex-flow: column nowrap;
-      padding-top: 5rem;
-
-      .skillsBarsContainer {
-        width: 50%;
-        height: 30vh;
+  .App {
+    font-family: "Bitter", serif;
+    .container {
+      .video {
+        height: 150vh;
       }
 
-      .infoContainer {
-        height: 60vh;
+      .content {
+        .subContent {
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+          justify-content: space-between;
+          overflow: hidden;
+          a:link,
+          :visited,
+          :hover,
+          :active {
+            text-decoration: none;
+            color: white;
+          }
 
-        .infoDiv {
-          p {
-            font-size: 1.5rem;
+          img {
+            width: 200px;
+            height: 200px;
           }
         }
+      }
+    }
+
+    .header {
+      justify-content: flex-end;
+      height: 5rem;
+      .burgerMenu {
+        display: none;
+      }
+      .nav {
+        justify-content: flex-end;
+      }
+      .socialLinks {
+      }
+    }
+
+    .main {
+      .aboutMe {
+        flex-flow: column nowrap;
+        padding-top: 5rem;
+
+        .skillsBarsContainer {
+          width: 50%;
+          height: 30vh;
+        }
+
+        .infoContainer {
+          height: 60vh;
+
+          .infoDiv {
+            p {
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+      .portfolio {
+        height: 100vh;
       }
     }
   }
