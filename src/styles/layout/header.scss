@@ -67,6 +67,19 @@
     align-items: center;
     justify-content: space-around;
     padding-bottom: 50%;
+
+    .navLink {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      a {
+        width: 100%;
+        text-align: center;
+        .colored {
+          color: blue;
+        }
+      }
+    }
   }
   .burger-navList-hidden {
     display: none;

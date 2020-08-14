@@ -1,24 +1,22 @@
 import React, { Component } from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default class BurgerMenu extends Component {
   constructor(props) {
     super(props);
     this.state = {
       isShown: false,
+      isActive: "",
     };
-    this.openBurgermenu = this.openBurgermenu.bind(this);
-  }
-
-  openBurgermenu() {
-    if (this.state.isShown === true)
-      this.setState({ isShown: !this.state.isShown });
-    else this.setState({ isShown: !this.state.isShown });
   }
 
   render() {
     return (
       <>
-        <div className="burgerMenu" onClick={this.openBurgermenu}>
+        <div
+          className="burgerMenu"
+          onClick={() => this.setState({ isShown: !this.state.isShown })}
+        >
           <div className={!this.state.isShown ? "bar" : "barOne"}></div>
           <div className={!this.state.isShown ? "bar" : "hiddenBar"}></div>
           <div className={!this.state.isShown ? "bar" : "barThree"}></div>
@@ -28,30 +26,54 @@ export default class BurgerMenu extends Component {
             !this.state.isShown ? "burger-navList-hidden" : "burger-navList"
           }
         >
-          <div className="navLink">
-            <a href="/" onClick={this.openBurgermenu}>
-              {" "}
-              Home{" "}
-            </a>
+          <div
+            onClick={() => this.setState({ isShown: false, isActive: "home" })}
+            className="navLink"
+          >
+            <AnchorLink href="#home">
+              <p>Home</p>
+            </AnchorLink>
           </div>
-          <div className="navLink">
-            <a href="#about-me" onClick={this.openBurgermenu}>
-              {" "}
-              AboutMe{" "}
-            </a>
+          <div
+            onClick={() =>
+              this.setState({ isShown: false, isActive: "aboutMe" })
+            }
+            className="navLink"
+          >
+            <AnchorLink href="#about-me">
+              <p className={this.state.isActive === "aboutMe" ? "colored" : ""}>
+                About Me
+              </p>
+            </AnchorLink>
           </div>
-          <div className="navLink">
-            <a href="#portfolio" onClick={this.openBurgermenu}>
-              {" "}
-              Portfolio{" "}
-            </a>
+          <div
+            onClick={() =>
+              this.setState({ isShown: false, isActive: "portfolio" })
+            }
+            className="navLink"
+          >
+            <AnchorLink href="#portfolio">
+              <p
+                className={this.state.isActive === "portfolio" ? "colored" : ""}
+              >
+                Portfolio
+              </p>
+            </AnchorLink>
           </div>
 
-          <div className="navLink">
-            <a href="#contact-me" onClick={this.openBurgermenu}>
-              {" "}
-              ContactMe{" "}
-            </a>
+          <div
+            onClick={() =>
+              this.setState({ isShown: false, isActive: "contactMe" })
+            }
+            className="navLink"
+          >
+            <AnchorLink href="#contact-me">
+              <p
+                className={this.state.isActive === "contactMe" ? "colored" : ""}
+              >
+                Contact Me
+              </p>
+            </AnchorLink>
           </div>
         </div>
       </>
