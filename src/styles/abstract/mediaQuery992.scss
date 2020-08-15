@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap");
 @media (min-width: 992px) {
   .App {
-    font-family: "Bitter", serif;
     .container {
       .video {
         height: 150vh;
@@ -39,11 +37,11 @@
       .nav {
         justify-content: flex-end;
       }
-      .socialLinks {
-      }
     }
 
     .main {
+      box-shadow: 0 0 2rem rgba(114, 5, 5, 0.33);
+      width: 80%;
       .aboutMe {
         flex-flow: column nowrap;
         padding-top: 5rem;
@@ -64,7 +62,9 @@
         }
       }
       .portfolio {
-        height: 100vh;
+        h5 {
+          font-size: 500%m;
+        }
       }
     }
   }

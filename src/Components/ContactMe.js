@@ -34,7 +34,8 @@ export default class ContactMe extends React.Component {
           </div>
           <div className="fieldDiv fieldMessage">
             <label>Message:</label>
-            <input type="text" name="message" />
+            {/* <input type="text" name="message" /> */}
+            <textarea name="message"></textarea>
           </div>
 
           {status === "SUCCESS" ? (
@@ -51,16 +52,13 @@ export default class ContactMe extends React.Component {
           )}
         </form>
         <div className="footer">
-          <div className="socialLink">
+          {/* <div className="socialLink">
             <a href="https://www.facebook.com/mallak.luay" target="_blank">
               Facebook
             </a>
-          </div>
+          </div> */}
           <div className="socialLink">
-            <a
-              href="https://www.linkedin.com/in/luay-mallak-7a942bb8/"
-              target="_blank"
-            >
+            <a href="https://www.linkedin.com/in/luay-mallak/" target="_blank">
               LinkedIn
             </a>
           </div>
@@ -69,11 +67,11 @@ export default class ContactMe extends React.Component {
               GitHub
             </a>
           </div>
-          <div className="socialLink">
+          {/* <div className="socialLink">
             <a href="https://www.instagram.com/luay.mallak/" target="_blank">
               Instagram
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     );

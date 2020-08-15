@@ -67,7 +67,7 @@
         .navLink a {
           font-size: 1.5rem;
           .colored {
-            color: red;
+            color: rgb(105, 36, 40);
           }
         }
       }
@@ -85,6 +85,7 @@
 
         h1 {
           width: 30%;
+          font-size: 2rem;
         }
 
         .skillBar {
@@ -99,8 +100,8 @@
       }
 
       .infoContainer {
+        height: auto;
         width: 80%;
-        height: 50vh;
 
         .infoDiv {
           h3 {
@@ -110,10 +111,11 @@
             font-size: 1.7rem;
           }
         }
+        .bottom {
+          display: flex;
+          flex-flow: column;
+        }
       }
-    }
-    .portfolio {
-      height: 100vh;
     }
 
     .contactMe {
@@ -194,6 +196,7 @@
         h1 {
           width: 40%;
           padding: 0.3rem;
+          font-size: 2rem;
         }
         .skillBar {
           height: 8%;
@@ -211,6 +214,7 @@
             font-size: 150%;
           }
           p {
+            box-shadow: 5px 10px 0.7rem rgb(161, 153, 153);
             font-size: 120%;
           }
         }

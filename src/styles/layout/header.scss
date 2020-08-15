@@ -59,7 +59,7 @@
   .burger-navList {
     height: 100vh;
     min-width: 100vw;
-    background-color: grey;
+    background-color: rgb(165, 157, 157);
     position: absolute;
     top: 5rem;
     display: flex;
@@ -76,7 +76,7 @@
         width: 100%;
         text-align: center;
         .colored {
-          color: blue;
+          color: rgb(78, 96, 197);
         }
       }
     }
@@ -85,9 +85,6 @@
     display: none;
   }
   .nav {
-    display: none;
-  }
-  .socialLinks {
     display: none;
   }
 }
