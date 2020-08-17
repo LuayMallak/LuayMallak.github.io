@@ -1,4 +1,12 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faJedi } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faFacebook,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default class ContactMe extends React.Component {
   constructor(props) {
@@ -52,26 +60,27 @@ export default class ContactMe extends React.Component {
           )}
         </form>
         <div className="footer">
-          {/* <div className="socialLink">
+          <div className="socialLink">
             <a href="https://www.facebook.com/mallak.luay" target="_blank">
-              Facebook
+              <FontAwesomeIcon icon={faFacebook} />
             </a>
-          </div> */}
+          </div>
           <div className="socialLink">
             <a href="https://www.linkedin.com/in/luay-mallak/" target="_blank">
-              LinkedIn
+              <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </div>
           <div className="socialLink">
             <a href="https://github.com/LuayMallak" target="_blank">
-              GitHub
+              <FontAwesomeIcon icon={faGithub} />
             </a>
           </div>
-          {/* <div className="socialLink">
+
+          <div className="socialLink">
             <a href="https://www.instagram.com/luay.mallak/" target="_blank">
-              Instagram
+              <FontAwesomeIcon icon={faInstagram} />
             </a>
-          </div> */}
+          </div>
         </div>
       </div>
     );

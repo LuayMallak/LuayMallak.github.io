@@ -25,7 +25,7 @@
       padding: 10px;
 
       p {
-        color: rgba(238, 238, 238, 0.678);
+        color: white;
         font-size: 1.3rem;
         margin-bottom: 30px;
       }
@@ -40,15 +40,13 @@
         border-radius: 5px;
       }
       a:hover {
-        background-color: rgb(241, 241, 241);
-        color: #000000c0;
+        background-color: rgb(112, 100, 100);
       }
       a:link,
       :visited,
       :hover,
       :active {
         text-decoration: none;
-        color: white;
       }
 
       img {

@@ -130,7 +130,17 @@
         height: 80vh;
 
         font-size: 1.4rem;
-
+        a:hover {
+          background-color: rgb(241, 241, 241);
+          color: #000000c0;
+        }
+        a:link,
+        :visited,
+        :hover,
+        :active {
+          text-decoration: none;
+          color: white;
+        }
         .fieldDiv {
           display: flex;
           justify-content: space-between;
@@ -140,13 +150,19 @@
           input {
             height: 100%;
           }
+          input:focus {
+            box-shadow: 0.08rem 0.08rem 0.08rem 0.08rem rgb(32, 55, 158);
+          }
         }
 
         .fieldMessage {
           height: 25%;
           width: 100%;
-          input {
+          textarea {
             height: 100%;
+          }
+          textarea:focus {
+            box-shadow: 0.08rem 0.08rem 0.08rem 0.08rem rgb(32, 55, 158);
           }
         }
 

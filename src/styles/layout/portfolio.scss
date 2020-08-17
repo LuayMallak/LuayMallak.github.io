@@ -26,7 +26,7 @@
           width: 100%;
           img {
             width: 100%;
-            border-radius: 10px;
+            border-radius: 10px 10px 0 0;
           }
         }
 
@@ -38,11 +38,12 @@
           justify-content: space-around;
           padding: 1rem;
 
-          h5 {
-            font-size: 2rem;
-          }
-          p {
+          .title {
             font-size: 1.5rem;
+            font-weight: 900;
+          }
+          .description {
+            font-size: 1.2rem;
           }
         }
       }

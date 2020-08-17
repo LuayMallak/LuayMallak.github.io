@@ -58,6 +58,20 @@
       padding: 5rem;
       padding-top: 9rem;
       background-color: whitesmoke;
+      .cards-container {
+        .link {
+          .card {
+            .card-body {
+              .title {
+                font-size: 2rem;
+              }
+              .description {
+                font-size: 1.5rem;
+              }
+            }
+          }
+        }
+      }
     }
     .contactMe {
       width: 100%;

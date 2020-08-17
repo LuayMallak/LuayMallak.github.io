@@ -12,6 +12,7 @@
           align-items: center;
           justify-content: space-between;
           overflow: hidden;
+
           a:link,
           :visited,
           :hover,
@@ -40,7 +41,7 @@
     }
 
     .main {
-      box-shadow: 0 0 2rem rgba(114, 5, 5, 0.33);
+      box-shadow: 0 0 1.5rem rgba(42, 47, 114, 0.7);
       width: 80%;
       .aboutMe {
         flex-flow: column nowrap;
@@ -59,11 +60,6 @@
               font-size: 1.5rem;
             }
           }
-        }
-      }
-      .portfolio {
-        h5 {
-          font-size: 500%m;
         }
       }
     }

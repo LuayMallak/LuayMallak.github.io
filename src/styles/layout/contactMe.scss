@@ -83,6 +83,21 @@
       a {
         text-decoration: none;
         font-size: 1.4rem;
+        .fa-linkedin {
+          font-size: 3rem;
+          color: rgb(21, 144, 192);
+        }
+        .fa-github {
+          font-size: 3rem;
+        }
+        .fa-facebook {
+          font-size: 3rem;
+          color: #0e92f3;
+        }
+        .fa-instagram {
+          font-size: 3rem;
+          color: #e14979;
+        }
       }
       a :link,
       :visited,
