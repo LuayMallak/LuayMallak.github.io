@@ -75,7 +75,7 @@ export default function Portfolio() {
           </a>
           <a
             className="link"
-            href="https://luaymallak.codes/js-cocktailmaster/"
+            href="http://luaymallak.codes/cocktailmasterVanillaJavascript/"
             target="_blank"
           >
             <Slide bottom>
@@ -142,7 +142,7 @@ export default function Portfolio() {
           </a>
           <a
             className="link"
-            href="https://luaymallak.codes/todo-api/"
+            href="https://github.com/LuayMallak/Todo-API"
             target="_blank"
           >
             <Slide bottom>
