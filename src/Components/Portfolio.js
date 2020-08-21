@@ -98,7 +98,7 @@ export default function Portfolio() {
           </a>
           <a
             className="link"
-            href="https://luaymallak.codes/protfolio/"
+            href="http://luaymallak.codes/htmlcssportfolio/"
             target="_blank"
           >
             <Slide bottom>
