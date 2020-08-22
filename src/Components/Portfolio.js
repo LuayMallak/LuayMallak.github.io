@@ -5,7 +5,7 @@ export default function Portfolio() {
     <>
       <div className="portfolio" id="portfolio">
         <div className="cards-container">
-          <Slide bottom>
+          {/* <Slide bottom>
             <a
               className="link"
               href="https://luaymallak.codes/makeupshop/"
@@ -27,13 +27,14 @@ export default function Portfolio() {
                 </div>
               </div>
             </a>
-          </Slide>
-          <a
-            className="link"
-            href="https://luaymallak.codes/moveiapp/"
-            target="_blank"
-          >
-            <Slide bottom>
+          </Slide> */}
+
+          <Slide bottom>
+            <a
+              className="link"
+              href="https://luaymallak.codes/MovieApp/"
+              target="_blank"
+            >
               <div className="card">
                 <div className="card-image">
                   <img
@@ -48,14 +49,15 @@ export default function Portfolio() {
                   </p>
                 </div>
               </div>
-            </Slide>
-          </a>
-          <a
-            className="link"
-            href="https://luaymallak.codes/cocktailmaster/"
-            target="_blank"
-          >
-            <Slide bottom>
+            </a>
+          </Slide>
+
+          <Slide bottom>
+            <a
+              className="link"
+              href="https://luaymallak.codes/cocktailmaster/"
+              target="_blank"
+            >
               <div className="card">
                 <div className="card-image">
                   <img
@@ -71,14 +73,14 @@ export default function Portfolio() {
                   </p>
                 </div>
               </div>
-            </Slide>
-          </a>
-          <a
-            className="link"
-            href="http://luaymallak.codes/cocktailmasterVanillaJavascript/"
-            target="_blank"
-          >
-            <Slide bottom>
+            </a>
+          </Slide>
+          <Slide bottom>
+            <a
+              className="link"
+              href="http://luaymallak.codes/cocktailmasterVanillaJavascript/"
+              target="_blank"
+            >
               <div className="card">
                 <div className="card-image">
                   <img
@@ -94,14 +96,14 @@ export default function Portfolio() {
                   </p>
                 </div>
               </div>
-            </Slide>
-          </a>
-          <a
-            className="link"
-            href="http://luaymallak.codes/htmlcssportfolio/"
-            target="_blank"
-          >
-            <Slide bottom>
+            </a>
+          </Slide>
+          <Slide bottom>
+            <a
+              className="link"
+              href="http://luaymallak.codes/htmlcssportfolio/"
+              target="_blank"
+            >
               <div className="card">
                 <div className="card-image">
                   <img
@@ -116,14 +118,14 @@ export default function Portfolio() {
                   </p>
                 </div>
               </div>
-            </Slide>
-          </a>
-          <a
-            className="link"
-            href="https://luaymallak.codes/SPA-todo-app/"
-            target="_blank"
-          >
-            <Slide bottom>
+            </a>
+          </Slide>
+          {/* <Slide bottom>
+            <a
+              className="link"
+              href="https://luaymallak.codes/SPA-todo-app/"
+              target="_blank"
+            >
               <div className="card">
                 <div className="card-image">
                   <img
@@ -138,14 +140,14 @@ export default function Portfolio() {
                   </p>
                 </div>
               </div>
-            </Slide>
-          </a>
-          <a
-            className="link"
-            href="https://github.com/LuayMallak/Todo-API"
-            target="_blank"
-          >
-            <Slide bottom>
+            </a>
+          </Slide> */}
+          <Slide bottom>
+            <a
+              className="link"
+              href="https://github.com/LuayMallak/Todo-API"
+              target="_blank"
+            >
               <div className="card">
                 <div className="card-image">
                   <img
@@ -161,8 +163,8 @@ export default function Portfolio() {
                   </p>
                 </div>
               </div>
-            </Slide>
-          </a>
+            </a>
+          </Slide>
         </div>
       </div>
     </>
