@@ -7,12 +7,16 @@
 
       .content {
         .subContent {
+          height: 100vh;
           display: flex;
-          flex-flow: column;
+          flex-flow: row;
           align-items: center;
           justify-content: space-between;
           overflow: hidden;
 
+          .info {
+            width: 34%;
+          }
           a:link,
           :visited,
           :hover,
@@ -21,9 +25,9 @@
             color: white;
           }
 
-          img {
-            width: 200px;
-            height: 200px;
+          .image-container {
+            width: 65%;
+            height: 450px;
           }
         }
       }

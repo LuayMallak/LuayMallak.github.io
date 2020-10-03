@@ -1,6 +1,6 @@
 import React from "react";
 import background from "../images/video2.mp4";
-import image from "../images/example.png";
+import image from "../images/2.JPG";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function BackgroundVideo() {
@@ -14,12 +14,16 @@ export default function BackgroundVideo() {
 
       <div className="content">
         <div className="subContent">
-          <h1>Hi, I am Luay Mallak</h1>
-          <p className="test">
-            Front-end junior Web Developer, live in Leipzig, Germany
-          </p>
-          <AnchorLink href="#about-me">Check my Portfolio</AnchorLink>
-          <img src={image} alt="profile" />
+          <div className="info">
+            <h1>Hi, I am Luay Mallak</h1>
+            <p className="test">
+              Front-end junior Web Developer, live in Leipzig, Germany
+            </p>
+            <AnchorLink href="#about-me">Check my Portfolio</AnchorLink>
+          </div>
+          <div className="image-container">
+            {/* <img src={image} alt="profile" /> */}
+          </div>
         </div>
       </div>
     </div>

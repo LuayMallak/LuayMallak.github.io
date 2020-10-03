@@ -1,82 +1,99 @@
 @media (min-width: 1344px) {
-  .header {
-    height: 7rem;
-    .nav {
-      width: 40%;
-      margin-right: 20%;
+  .App {
+    .container {
+      .video {
+        height: 150vh;
+      }
 
-      .navList {
-        .navLink {
-          a {
-            font-size: 1.8rem;
+      .content {
+        .subContent {
+          height: 100vh;
+          .image-container {
+            width: 25%;
+            height: 350px;
           }
         }
       }
-    }
-  }
+      .header {
+        height: 7rem;
+        .nav {
+          width: 40%;
+          margin-right: 20%;
 
-  .main {
-    .aboutMe {
-      width: 100%;
-      flex-flow: row nowrap;
-      background-color: whitesmoke;
-      padding-top: 7rem;
-
-      .skillsBarsContainer {
-        width: 40%;
-        max-height: 40vh;
-        align-self: flex-start;
-        margin-left: 10%;
-      }
-
-      .infoContainer {
-        display: flex;
-        width: 50%;
-        align-self: flex-end;
-        height: 100vh;
-        .bottom {
-          display: none;
-        }
-        .leftRight {
-          display: inline;
-        }
-        .infoDiv {
-          h3 {
-            font-size: 200%;
-            padding: 0.5rem;
-          }
-          p {
-            font-size: 150%;
-            padding: 0.3rem;
-            width: 80%;
-          }
-        }
-      }
-    }
-    .portfolio {
-      width: 100%;
-      padding: 5rem;
-      padding-top: 9rem;
-      background-color: whitesmoke;
-      .cards-container {
-        .link {
-          .card {
-            .card-body {
-              .title {
-                font-size: 2rem;
-              }
-              .description {
-                font-size: 1.5rem;
+          .navList {
+            .navLink {
+              a {
+                font-size: 1.8rem;
               }
             }
           }
         }
       }
     }
-    .contactMe {
-      width: 100%;
-      background-color: whitesmoke;
-      padding-top: 11rem;
+
+    .main {
+      .aboutMe {
+        width: 100%;
+        flex-flow: row nowrap;
+        background-color: whitesmoke;
+        padding-top: 7rem;
+
+        .skillsBarsContainer {
+          width: 40%;
+          max-height: 40vh;
+          align-self: flex-start;
+          margin-left: 10%;
+        }
+
+        .infoContainer {
+          display: flex;
+          width: 50%;
+          align-self: flex-end;
+          height: 100vh;
+          .bottom {
+            display: none;
+          }
+          .leftRight {
+            display: inline;
+          }
+          .infoDiv {
+            h3 {
+              font-size: 200%;
+              padding: 0.5rem;
+            }
+            p {
+              font-size: 150%;
+              padding: 0.3rem;
+              width: 80%;
+            }
+          }
+        }
+      }
+      .portfolio {
+        width: 100%;
+        padding: 5rem;
+        padding-top: 9rem;
+        background-color: whitesmoke;
+        .cards-container {
+          .link {
+            .card {
+              .card-body {
+                .title {
+                  font-size: 2rem;
+                }
+                .description {
+                  font-size: 1.5rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      .contactMe {
+        width: 100%;
+        background-color: whitesmoke;
+        padding-top: 11rem;
+      }
     }
   }
 }

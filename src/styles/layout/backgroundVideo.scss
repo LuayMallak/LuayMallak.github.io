@@ -21,8 +21,12 @@
     z-index: 100;
 
     .subContent {
+      height: 80vh;
       text-align: center;
       padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
 
       p {
         color: white;
@@ -49,13 +53,17 @@
         text-decoration: none;
       }
 
-      img {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
+      .image-container {
+        width: 95%;
+        height: 300px;
+        border-radius: 30%;
         display: block;
-        margin: 25px auto;
+        margin: auto;
         border: rgb(241, 241, 241) 1px solid;
+        background-image: url("../../images/2.JPG");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
       }
     }
   }
