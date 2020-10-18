@@ -7,10 +7,6 @@
 
       .content {
         .subContent {
-          .image-container {
-            width: 25%;
-            height: 350px;
-          }
         }
       }
       .header {
@@ -75,8 +71,13 @@
         background-color: whitesmoke;
         .cards-container {
           .link {
+            height: 300px;
             .card {
+              .card-image {
+                height: 200px;
+              }
               .card-body {
+                height: 100px;
                 .title {
                   font-size: 2rem;
                 }

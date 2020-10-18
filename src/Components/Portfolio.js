@@ -5,29 +5,6 @@ export default function Portfolio() {
     <>
       <div className="portfolio" id="portfolio">
         <div className="cards-container">
-          {/* <Slide bottom>
-            <a
-              className="link"
-              href="https://luaymallak.codes/makeupshop/"
-              target="_blank"
-            >
-              <div className="card">
-                <div className="card-image">
-                  <img
-                    src="https://loremflickr.com/320/240/brazil,rio"
-                    alt=""
-                  />
-                </div>
-                <div className="card-body">
-                  <p className="title">Makeup App</p>
-                  <p className="description">
-                    An app designed and created in cooperation with classmates
-                    in DCI
-                  </p>
-                </div>
-              </div>
-            </a>
-          </Slide> */}
 
           <Slide bottom>
             <a
@@ -36,11 +13,8 @@ export default function Portfolio() {
               target="_blank"
             >
               <div className="card">
-                <div className="card-image">
-                  <img
-                    src="https://loremflickr.com/320/240/brazil,rio"
-                    alt=""
-                  />
+                <div className="card-image movie-app">
+                  
                 </div>
                 <div className="card-body">
                   <p className="title">Movie App</p>
@@ -59,11 +33,8 @@ export default function Portfolio() {
               target="_blank"
             >
               <div className="card">
-                <div className="card-image">
-                  <img
-                    src="https://loremflickr.com/320/240/brazil,rio"
-                    alt=""
-                  />
+                <div className="card-image react-cocktail-master">
+                  >
                 </div>
                 <div className="card-body">
                   <p className="title">Cocktail App</p>
@@ -82,11 +53,8 @@ export default function Portfolio() {
               target="_blank"
             >
               <div className="card">
-                <div className="card-image">
-                  <img
-                    src="https://loremflickr.com/320/240/brazil,rio"
-                    alt=""
-                  />
+                <div className="card-image javascript-cocktail-master">
+                  
                 </div>
                 <div className="card-body">
                   <p className="title">Javascript Cocktail App</p>
@@ -105,11 +73,8 @@ export default function Portfolio() {
               target="_blank"
             >
               <div className="card">
-                <div className="card-image">
-                  <img
-                    src="https://loremflickr.com/320/240/brazil,rio"
-                    alt=""
-                  />
+                <div className="card-image html-css-portfolio">
+                  
                 </div>
                 <div className="card-body">
                   <p className="title">Portfolio HTML/CSS</p>
@@ -120,28 +85,7 @@ export default function Portfolio() {
               </div>
             </a>
           </Slide>
-          {/* <Slide bottom>
-            <a
-              className="link"
-              href="https://luaymallak.codes/SPA-todo-app/"
-              target="_blank"
-            >
-              <div className="card">
-                <div className="card-image">
-                  <img
-                    src="https://loremflickr.com/320/240/brazil,rio"
-                    alt=""
-                  />
-                </div>
-                <div className="card-body">
-                  <p className="title">Todo APP</p>
-                  <p className="description">
-                    A Todo APP, created with React from scratch at DCI
-                  </p>
-                </div>
-              </div>
-            </a>
-          </Slide> */}
+          
           <Slide bottom>
             <a
               className="link"
@@ -149,11 +93,8 @@ export default function Portfolio() {
               target="_blank"
             >
               <div className="card">
-                <div className="card-image">
-                  <img
-                    src="https://loremflickr.com/320/240/brazil,rio"
-                    alt=""
-                  />
+                <div className="card-image todo-api">
+                  
                 </div>
                 <div className="card-body">
                   <p className="title">Todo API</p>

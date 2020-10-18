@@ -15,19 +15,23 @@
           overflow: hidden;
 
           .info {
-            width: 34%;
-          }
-          a:link,
-          :visited,
-          :hover,
-          :active {
-            text-decoration: none;
-            color: white;
-          }
-
-          .image-container {
-            width: 65%;
-            height: 450px;
+            width: 400px;
+            h1 {
+              font-size: 4rem;
+            }
+            p {
+              font-size: 2rem;
+            }
+            a {
+              font-size: 2rem;
+            }
+            a:link,
+            :visited,
+            :hover,
+            :active {
+              text-decoration: none;
+              color: white;
+            }
           }
         }
       }
@@ -62,6 +66,24 @@
           .infoDiv {
             p {
               font-size: 1.5rem;
+            }
+          }
+        }
+      }
+      .portfolio {
+        .cards-container {
+          .link {
+            width: 33%;
+            height: 200px;
+            .card {
+              height: 100%;
+              .card-image {
+                height: 125px;
+              }
+
+              .card-body {
+                height: 75px;
+              }
             }
           }
         }

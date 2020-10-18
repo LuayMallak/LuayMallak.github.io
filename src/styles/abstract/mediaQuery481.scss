@@ -11,16 +11,17 @@
 
       .subContent {
         flex-direction: row;
+        flex-wrap: wrap;
         padding: 0;
         width: 90%;
         justify-content: space-between;
 
         h1 {
-          font-size: 3rem;
+          font-size: 2rem;
         }
 
         p {
-          font-size: 2rem;
+          font-size: 1.5rem;
         }
 
         a {
@@ -31,8 +32,8 @@
           border-radius: 5px;
         }
         .image-container {
-          width: 95%;
-          height: 280px;
+          width: 150px;
+          height: 150px;
         }
       }
     }
@@ -106,34 +107,16 @@
         flex-flow: row wrap;
         justify-content: space-around;
         .link {
-          width: 33%;
-          height: 250px;
+          width: 50%;
+          height: 300px;
           margin-bottom: 5%;
           .card {
-            border: 0.1rem solid black;
-            height: 100%;
-            margin: 5%;
-            border-radius: 10px;
-            display: flex;
-            flex-flow: column nowrap;
-            align-items: center;
-            justify-content: space-around;
             .card-image {
-              width: 100%;
-              img {
-                width: 100%;
-                max-height: 150px;
-                border-radius: 10px;
-              }
+              height: 150px;
             }
 
             .card-body {
-              height: 100%;
-              display: flex;
-              flex-flow: column;
-              align-items: center;
-              justify-content: space-around;
-              padding: 1rem;
+              height: 150px;
 
               .title {
                 font-size: 1.7rem;
