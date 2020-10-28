@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb7fb90e.chunk.css",
-    "main.js": "/static/js/main.b322ade8.chunk.js",
-    "main.js.map": "/static/js/main.b322ade8.chunk.js.map",
+    "main.css": "/static/css/main.11e253c0.chunk.css",
+    "main.js": "/static/js/main.dcd4e3f9.chunk.js",
+    "main.js.map": "/static/js/main.dcd4e3f9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.78b94065.js",
     "runtime-main.js.map": "/static/js/runtime-main.78b94065.js.map",
-    "static/js/2.75866f68.chunk.js": "/static/js/2.75866f68.chunk.js",
-    "static/js/2.75866f68.chunk.js.map": "/static/js/2.75866f68.chunk.js.map",
+    "static/js/2.5b805428.chunk.js": "/static/js/2.5b805428.chunk.js",
+    "static/js/2.5b805428.chunk.js.map": "/static/js/2.5b805428.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.755649be99466340ea72159b1aa6df4e.js": "/precache-manifest.755649be99466340ea72159b1aa6df4e.js",
+    "precache-manifest.fd492e254ef081e9070a8632d259f2da.js": "/precache-manifest.fd492e254ef081e9070a8632d259f2da.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.bb7fb90e.chunk.css.map": "/static/css/main.bb7fb90e.chunk.css.map",
-    "static/js/2.75866f68.chunk.js.LICENSE.txt": "/static/js/2.75866f68.chunk.js.LICENSE.txt",
+    "static/css/main.11e253c0.chunk.css.map": "/static/css/main.11e253c0.chunk.css.map",
+    "static/js/2.5b805428.chunk.js.LICENSE.txt": "/static/js/2.5b805428.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/static/media/2.4dc6e0ea.JPG",
+    "static/media/do-it-4-me.png": "/static/media/do-it-4-me.64d40f27.png",
+    "static/media/html-css-portfolio.png": "/static/media/html-css-portfolio.abb228db.png",
+    "static/media/movie-app.png": "/static/media/movie-app.7c5d6c94.png",
+    "static/media/react-cocktail-master.png": "/static/media/react-cocktail-master.50f04e29.png",
+    "static/media/todo-api-github.png": "/static/media/todo-api-github.9cfc1b94.png",
+    "static/media/vanilla-javascript-cocktail-master.png": "/static/media/vanilla-javascript-cocktail-master.a99749f2.png",
     "static/media/video2.mp4": "/static/media/video2.e941df1d.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.78b94065.js",
-    "static/js/2.75866f68.chunk.js",
-    "static/css/main.bb7fb90e.chunk.css",
-    "static/js/main.b322ade8.chunk.js"
+    "static/js/2.5b805428.chunk.js",
+    "static/css/main.11e253c0.chunk.css",
+    "static/js/main.dcd4e3f9.chunk.js"
   ]
 }
