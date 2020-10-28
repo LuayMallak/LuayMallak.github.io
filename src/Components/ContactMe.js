@@ -1,6 +1,5 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faJedi } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faLinkedin,
@@ -61,23 +60,23 @@ export default class ContactMe extends React.Component {
         </form>
         <div className="footer">
           <div className="socialLink">
-            <a href="https://www.facebook.com/mallak.luay" target="_blank">
+            <a href="https://www.facebook.com/mallak.luay" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFacebook} />
             </a>
           </div>
           <div className="socialLink">
-            <a href="https://www.linkedin.com/in/luay-mallak/" target="_blank">
+            <a href="https://www.linkedin.com/in/luay-mallak/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </div>
           <div className="socialLink">
-            <a href="https://github.com/LuayMallak" target="_blank">
+            <a href="https://github.com/LuayMallak" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </div>
 
           <div className="socialLink">
-            <a href="https://www.instagram.com/luay.mallak/" target="_blank">
+            <a href="https://www.instagram.com/luay.mallak/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </div>

@@ -1,19 +1,41 @@
 import React from "react";
 import Slide from "react-reveal/Slide";
+
 export default function Portfolio() {
   return (
     <>
       <div className="portfolio" id="portfolio">
         <div className="cards-container">
+        <Slide bottom>
+            <a
+              className="link"
+              href="https://do-it-4-me.vercel.app/"
+              target="_blank" rel="noopener noreferrer"
+            >
+              <div className="card">
+                <div className="card-image do-it-4-me">
+                <img src={require("../images/do-it-4-me.png")} alt="app screenshot" />
+                </div>
+                <div className="card-body">
+                  <p className="title">Do it 4 me</p>
+                  <p className="description">
+                    A full stack app in cooperation
+                    with classmates in DCI as the final project{" "}
+                  </p>
+                </div>
+              </div>
+            </a>
+          </Slide>
 
           <Slide bottom>
             <a
               className="link"
               href="https://luaymallak.codes/MovieApp/"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               <div className="card">
                 <div className="card-image movie-app">
+                <img src={require("../images/movie-app.png")} alt="app screenshot" />
                   
                 </div>
                 <div className="card-body">
@@ -30,11 +52,11 @@ export default function Portfolio() {
             <a
               className="link"
               href="https://luaymallak.codes/cocktailmaster/"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               <div className="card">
                 <div className="card-image react-cocktail-master">
-                  >
+                <img src={require("../images/react-cocktail-master.png")} alt="app screenshot" />
                 </div>
                 <div className="card-body">
                   <p className="title">Cocktail App</p>
@@ -50,11 +72,11 @@ export default function Portfolio() {
             <a
               className="link"
               href="http://luaymallak.codes/cocktailmasterVanillaJavascript/"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               <div className="card">
                 <div className="card-image javascript-cocktail-master">
-                  
+                <img src={require("../images/vanilla-javascript-cocktail-master.png")} alt="app screenshot" />
                 </div>
                 <div className="card-body">
                   <p className="title">Javascript Cocktail App</p>
@@ -70,11 +92,11 @@ export default function Portfolio() {
             <a
               className="link"
               href="http://luaymallak.codes/htmlcssportfolio/"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               <div className="card">
                 <div className="card-image html-css-portfolio">
-                  
+                <img src={require("../images/html-css-portfolio.png")} alt="app screenshot" />
                 </div>
                 <div className="card-body">
                   <p className="title">Portfolio HTML/CSS</p>
@@ -90,11 +112,11 @@ export default function Portfolio() {
             <a
               className="link"
               href="https://github.com/LuayMallak/Todo-API"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               <div className="card">
                 <div className="card-image todo-api">
-                  
+                <img src={require("../images/todo-api-github.png")} alt="app screenshot" />
                 </div>
                 <div className="card-body">
                   <p className="title">Todo API</p>

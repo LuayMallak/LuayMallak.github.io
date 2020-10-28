@@ -1,6 +1,5 @@
 import React from "react";
 import background from "../images/video2.mp4";
-import image from "../images/2.JPG";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function BackgroundVideo() {
