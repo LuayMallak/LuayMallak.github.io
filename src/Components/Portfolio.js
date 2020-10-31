@@ -9,7 +9,7 @@ export default function Portfolio() {
         <Slide bottom>
             <a
               className="link"
-              href="https://do-it-4-me.vercel.app/"
+              href="https://doit4me-one.vercel.app/"
               target="_blank" rel="noopener noreferrer"
             >
               <div className="card">
